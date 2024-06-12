@@ -14,9 +14,9 @@ h1{
 .welcome-note{
    margin-top: 0px;
    height: 150px;
-   background-color: rgb(62, 143, 219);
+   background-color: rgb(250, 63, 63);
    color: white;
- 
+}
    .logo-note{
       display: grid;
       grid-template-columns: 1fr 8fr;
@@ -49,5 +49,28 @@ margin-left: 35%;
 .vision-mission-values{
    display: grid;
    grid-template-columns: 1fr 1fr 1fr;
-   width: 100px;
+   margin-top: 70px;
+  
+}
+.vision-text{
+   background-color: rgb(62, 143, 219);
+   height: 400px;
+}
+
+.mission-text{
+   background-color: white;
+   height: 400px;
+}
+
+.mission-head{
+   margin-left: 40px;
+}
+.mission-note{
+   width: 300px;
+   margin-left: 40px;
+}
+.vallues-text{
+   background-color: lawngreen;
+   height: 400px;
+   
 }
