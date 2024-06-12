@@ -1,0 +1,53 @@
+html{
+   font-size: 21px;
+}
+
+body{
+   background-color: whitesmoke;
+}
+h1{
+   color: blue;
+   margin-left: 170px;
+  
+}
+
+.welcome-note{
+   margin-top: 0px;
+   height: 150px;
+   background-color: rgb(62, 143, 219);
+   color: white;
+ 
+   .logo-note{
+      display: grid;
+      grid-template-columns: 1fr 8fr;
+
+   }
+
+   .logo{
+      width: 120px;
+      height: 110px;
+     margin-left: 8px;
+     margin-top: 12px;
+   
+}
+.note{
+   display: inline-block;
+   font-size: 50px;
+   margin: 0px;
+   margin-top: 30px;
+   margin-left: 50px;
+}
+
+.attitude{
+   font-size: 30px;
+  margin: 0px;
+margin-left: 35%;
+
+}
+
+
+.vision-mission-values{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   width: 100px;
+}
