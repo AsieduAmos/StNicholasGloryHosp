@@ -47,10 +47,18 @@ margin-left: 35%;
 
 
 .vision-mission-values{
+   font-family: roboto;
+   font-weight: bold;
    display: grid;
    grid-template-columns: 1fr 1fr 1fr;
    margin-top: 70px;
   
+}
+.vision-head,
+.mission-head,
+.vallues-head{
+   margin-left: 40px;
+   font-size: 35px;
 }
 .vision-text{
    background-color: rgb(62, 143, 219);
@@ -60,17 +68,66 @@ margin-left: 35%;
 .mission-text{
    background-color: white;
    height: 400px;
+   font-weight: bold;
 }
 
-.mission-head{
-   margin-left: 40px;
-}
-.mission-note{
+
+.mission-note,
+.vision-note{
    width: 300px;
    margin-left: 40px;
+}
+
+.vallues-note{
+   margin-left: 80px;
 }
 .vallues-text{
    background-color: lawngreen;
    height: 400px;
    
+}
+.service{
+   margin-left: 20%;
+   margin-top: 70px;
+   font-size: 25px;
+}
+
+.lab,
+.deliveryroom,
+.recoveryroom,
+.pharmacy{
+   display: inline-block;
+}
+
+
+.labbpic,
+.recoverypic,
+.pharmacypic,
+.deliverypic{
+   width: 325px;
+   border-radius: 9px;
+}
+
+.lab-note,
+.delivery-note,
+.recovery-note,
+.pharmacy-note{
+   margin-left: 35px;
+   font-size: 25px;
+   margin-top: 0px;
+}
+
+.patient-care{
+   margin-top: 100px;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   
+}
+.patient-pic{
+   width: 50px;
+   border-radius: 15px;
+}
+
+.patientRight{
+   background-color: rgb(34, 245, 34);
 }
