@@ -5,51 +5,55 @@ html{
 body{
    background-color: whitesmoke;
    font-family: roboto;
-}
-h1{
-   color: blue;
-   margin-left: 170px;  
-   
+   margin-bottom: 2000px;
+
 }
 
-.welcome-note{
-   margin-top: 0px;
-   height: 150px;
-   background-color: rgb(57, 131, 188);
-   color: blanchedalmond;
-}
-
-
-   .logo-note{
-      display: grid;
-      grid-template-columns: 1fr 8fr;
-   }
-
-
-   .logo{
+      .logo{
       width: 120px;
-      height: 110px;
-     margin-left: 8px;
-     margin-top: 12px;
+     height: 116.5px;
+      margin-left: 100px;
+      
+      }
+
+
+
+
+.menu-bar1{
+   display: grid;
+   grid-template-columns: 1fr 8fr;
+   background-color:rgb(102, 102, 226) ;
+}
+
+.menu-bar{  
+   text-align: center;
+}
+
+
+.menu-bar ul{
+display: inline-flex;
+list-style: none;
+color: white;
+
+
+}
+
+.menu-bar ul li{
+   width: 120px;
+   margin: 10px;
+   padding: 15px;
+  
    
 }
 
-
-.note{
-   display: inline-block;
-   font-size: 50px;
-   margin: 0px;
-   margin-top: 30px;
-   margin-left: 50px;
+.menu-bar ul li a{
+text-decoration: none;
+color: white;
 }
-
-
-.attitude{
-   font-size: 30px;
-  margin: 0px;
-  margin-left: 35%;
-  font-family: roboto;
+.active:hover{
+   color: red;
 }
+  
 
 
 .vision-mission-values{
