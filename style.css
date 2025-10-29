@@ -1,185 +1,108 @@
-html{
-   font-size: 21px;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-body{
+
+body {
    background-color: whitesmoke;
-   font-family: roboto;
-   margin-bottom: 2000px;
+   font-family: 'poppins', sans-serif;
+   font-size: 16px;
+   line-height: 1.5;
+    }
 
+    
+    h1,
+    h2 {
+      margin-bottom: 15px;
+    }
+
+    ul {
+      list-style: none;
+    }
+
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+  padding: 0 30px;
 }
 
-      .logo{
-      width: 120px;
-     height: 116.5px;
-      margin-left: 100px;
-      
-      }
-
-
-
-
-.menu-bar1{
-   border-top-left-radius: 20px;
-   border-top-right-radius: 20px;
-   display: grid;
-   grid-template-columns: 1fr 8fr;
-   background-color:white ;
-   
+.navBar {
+  background: white;
+  color: blue;
+  height: 130px;
 }
 
-.menu-bar{  
-   text-align: center;
+.navBar .logo { 
+  font-size: x-large;
+  font-weight: bolder;
+  font-style: oblique;
 }
 
-
-.menu-bar ul{
-display: inline-flex;
-list-style: none;
-
-
-
+.logoimg{
+  width: 100px;
+  height: 100px;
 }
 
-.menu-bar ul li{
-   width: 120px;
-   margin: 10px;
-   padding: 15px;
-  
-   
+.logoimg.hover{
+  transform: scale(1.1);}
+
+
+.navBar a {
+  color: blue;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+  font-style: calc();
 }
 
-.menu-bar ul li a{
-text-decoration: none;
-color: black;
-
-}
-.active:hover{
-   color: red;
-}
-  
-
-
-.vision-mission-values{
-   font-family: roboto;
-   font-weight: bold;
-   display: grid;
-   grid-template-columns: 1fr 1fr 1fr;
-   margin-top: 70px;  
+.navBar a:hover {
+  color: burlywood;
 }
 
-.mission-head{
-   margin-left: 40px;
-   font-size: 35px;   
+.navBar .container {
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 100%;
 }
 
-
-.vision-head,
-.vallues-head{
-   margin-left: 40px;
-   font-size: 35px;
-   color: blanchedalmond;
+.navBar ul {
+  display: flex;
+  }
+       
+.navBar ul li {
+  margin-left: 20px;
 }
-
-
-.vision-text{
-   background-color: blue;
-   height: 500px;
-   border-top-left-radius: 25px;
-}
-
-
-.mission-text{
-   background-color: white;
-   height: 500px;
-}
-
-
-.mission-note{
-   width: 300px;
-   margin-left: 40px;
-}
-
-
-.vision-note{
-   width: 300px;
-   margin-left: 40px;
-   color: blanchedalmond;
-}
-
-
-.vallues-note{
-   margin-left: 80px;
-   color: blanchedalmond;   
-}
-
-
-.vallues-text{
-   background-color: red;
-   height: 500px; 
-   border-top-right-radius: 25px;
-}
-
-
-.service{
-   text-align: center;
-   margin-top: 70px;
-   font-size: 25px;
-}
-
-.lab,
-.deliveryroom,
-.recoveryroom,
-.pharmacy{
-   display: inline-block;
-}
-
-
-.labbpic,
-.recoverypic,
-.pharmacypic,
-.deliverypic{
-   width: 325px;
-   border-radius: 8px;
-}
-
-.lab-note,
-.delivery-note,
-.recovery-note,
-.pharmacy-note{
-   margin-left: 35px;
-   font-size: 25px;
-   margin-top: 0px;
-   font-family: roboto;
-}
-
+     
 .space{
-   height: 120px;
-   background-color: lightblue;
-   margin: 0px;
-   
-}
-.patientpic{
-   width: 700px;
-   border-radius: 15px;
+  background: rgb(61, 61, 153);
+  height: 180px;
 }
 
-.patientRight{
-   background-color: blue;
-   width: 950px;
-   height: 990px;
-   margin-left: 100px;
-   
+.notes .container{
+  display: flex;
+  justify-content: space-between;
 }
 
-.patientright-head{
-   margin-left: 130px;
-   color: blanchedalmond;
-   font-size: 50px;
-   font-family: rboto;
-}
-.patientright-text{
-   margin-left: 130px;
-   color: blanchedalmond;
-   font-family: roboto;
-}
+.text {
+ background: red;
+ color: white;
+ border-radius: 10px;
+ margin: 25px 10px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+padding: 20px 25px;
+  }
+
+  .text i{
+    margin-right: 10px;
+  }
+        
+  
+          
+      
+   
+
+  
+   
