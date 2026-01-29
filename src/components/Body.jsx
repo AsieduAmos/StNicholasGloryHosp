@@ -8,7 +8,7 @@ const Body = () => {
 
   <>
     <section classNameName='font-sans text-lg font-normal leading-6'>
-          <div className="bg-white text-blue-600 font-bold text-lg text-center py-5 mx-20 mt-5 mb-30 
+          <div className="bg-blue-600 text-white font-bold text-lg text-center py-15 mx-20 mt-20 mb-30 
                           rounded-lg shadow-lg">
             <p>
               Health is the foundation upon which every other success is built, protect it with intention. <br /><br />
@@ -50,7 +50,7 @@ const Body = () => {
    <div className=' bg-slate-100 grid grid-cols-2 justify-center items-center mx-5 mb-20 p-5 gap-3 text-blue-600 
                     text-lg font-semibold rounded-lg leading-6'>
         <img className='rounded-xl' src={patient} alt="" />
-     <div className='bg-white p-6 rounded-lg'> 
+     <div className='bg-blue-600 text-white p-6 rounded-lg'> 
           <h2 className='font-bold text-3xl my-10 text-center'>Patient's Rights </h2>
       <p>
          The patient has the right to quality basic health care irrespective of
