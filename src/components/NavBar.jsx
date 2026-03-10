@@ -9,7 +9,7 @@ const NavBar = () => {
 <>
   <nav>
    <div className="container mx-auto">
-     <section className="h-20 grid grid-cols-3 bg-white text-blue-600 font-bold items-center border-b 
+     <section className="h-24 grid grid-cols-3 bg-white text-blue-600 font-bold items-center border-b 
                          border-blue-600 ">
       <img className="w-22 sm:ml-20 ml-10" src={logo}alt="logo"/>
       <ul className="flex sm:gap-6 gap-4 sm:text-xl text-lg cursor-pointer">
