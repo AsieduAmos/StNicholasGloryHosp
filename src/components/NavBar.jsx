@@ -18,13 +18,13 @@ const NavBar = () => {
                        hover:border-blue-800" to="/">Home</Link>
         </li>
         <li> 
-          <Link className="hover:text-blue-800" to="/NotFoundPage">Services</Link>
+          <Link className="hover:text-blue-800" to="services">Services</Link>
         </li>
         <li>
-          <Link className="hover:text-blue-800" to="/NotFoundPage">About Us</Link>
+          <Link className="hover:text-blue-800" to="about">About Us</Link>
         </li>
         <li>
-          <Link className="hover:text-blue-800" to="/NotFoundPage">Contact Us</Link>
+          <Link className="hover:text-blue-800" to="contact">Contact Us</Link>
         </li>
       </ul>
       <ul className="bg-blue-600 text-white sm:w-48 w-35 p-3 mx-auto sm:ml-40 ml-25 rounded-lg hover:bg-red-500 cursor-pointer">
